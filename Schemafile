@@ -1,0 +1,9 @@
+create_table "restaurants", force: true do |t|
+  t.time   "start_time"
+  t.time  "end_time"
+  t.string  "name"
+  t.string "location"
+  t.string "url"
+  t.datetime "created_at",  null: false
+  t.datetime "updated_at",  null: false
+end
