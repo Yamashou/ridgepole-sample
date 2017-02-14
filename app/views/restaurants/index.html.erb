@@ -2,7 +2,7 @@
   <div class="col-lg-8 col-lg-7 col-lg-6">
     <h1>一覧</h1>
     <ul>
-      <% @restaurants.each do |restaurant| %>
+      <% @op_restaurants.each do |restaurant| %>
       <li><%= link_to restaurant.name, restaurant %></li>
       <% end %>
     </ul>

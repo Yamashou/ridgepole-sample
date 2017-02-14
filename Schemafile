@@ -11,7 +11,7 @@ end
 
 create_table "operations", force: :cascade do |t|
   t.integer  "restaurant_id"
-  t.boolean  "mon"
+  t.boolean  "mon" #休日フラグ
   t.boolean  "tue"
   t.boolean  "wed"
   t.boolean  "thu"
