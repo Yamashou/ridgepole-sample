@@ -9,9 +9,15 @@ create_table "restaurants", force: :cascade do |t|
   t.datetime "updated_at"
 end
 
-create_table "days", force: :cascade do |t|
-  t.integer  "restaurant_id" 
-  t.string   "day_of_week"
+create_table "operations", force: :cascade do |t|
+  t.integer  "restaurant_id"
+  t.boolean  "mon"
+  t.boolean  "tue"
+  t.boolean  "wed"
+  t.boolean  "thu"
+  t.boolean  "fri"
+  t.boolean  "sat"
+  t.boolean  "sun"
   t.time     "open_time"
   t.time     "end_time"
   t.boolean  "rest_on"

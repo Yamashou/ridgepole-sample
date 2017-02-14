@@ -1,3 +1,3 @@
 class Restaurant < ApplicationRecord
-  has_many :days
+  has_one :operation
 end
