@@ -1,7 +1,22 @@
-create_table "articles", force: :cascade do |t|
-  t.string   "title"
-  t.text     "text"
-  t.string   "mail"
+create_table "restaurants", force: :cascade do |t|
+  t.string   "name" #店名
+  t.string   "address"#住所
+  t.string   "mail" #メールアドレス
+  t.text     "sales" #営業時間に関する内容
+  t.string   "att" #属性
+  t.text     "information" #説明、詳細内容
+  t.datetime "created_at"
+  t.datetime "updated_at"
+end
+
+create_table "days", force: :cascade do |t|
+  t.integer  "restaurant_id" 
+  t.string   "day_of_week"
+  t.time     "open_time"
+  t.time     "end_time"
+  t.boolean  "rest_on"
+  t.time     "rest_start"
+  t.time     "rest_end"
   t.datetime "created_at"
   t.datetime "updated_at"
 end
