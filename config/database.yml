@@ -83,3 +83,7 @@ production:
   database: ridgetest_production
   username: ridgetest
   password: <%= ENV['RIDGETEST_DATABASE_PASSWORD'] %>
+  encoding: utf8
+  adapter: postgresql
+  port: 5432
+  host: your_host
