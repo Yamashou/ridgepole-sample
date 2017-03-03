@@ -61,6 +61,6 @@ gem 'chronic'
 gem 'honoka-rails', '>= 3.3.6.3'
 gem 'rails_12factor', group: :production
 group :production do
- gem 'pg'
+ # gem 'pg'
  gem 'thin'
 end
