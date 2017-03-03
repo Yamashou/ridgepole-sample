@@ -59,3 +59,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'ridgepole'
 gem 'chronic'
 gem 'honoka-rails', '>= 3.3.6.3'
+gem 'rails_12factor', group: :production
