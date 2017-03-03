@@ -86,4 +86,3 @@ production:
   encoding: utf8
   adapter: postgresql
   port: 5432
-  host: your_host
