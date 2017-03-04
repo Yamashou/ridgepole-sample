@@ -1,0 +1,28 @@
+create_table "operations", force: :cascade do |t|
+  t.integer  "restaurant_id"
+  t.boolean  "mon"
+  t.boolean  "tue"
+  t.boolean  "wed"
+  t.boolean  "thu"
+  t.boolean  "fri"
+  t.boolean  "sat"
+  t.boolean  "sun"
+  t.boolean  "rest_on"
+  t.string   "rest_start"
+  t.string   "rest_end"
+  t.datetime "created_at"
+  t.datetime "updated_at"
+  t.datetime "open_time"
+  t.datetime "end_time"
+end
+
+create_table "restaurants", force: :cascade do |t|
+  t.string   "name"
+  t.string   "address"
+  t.string   "mail"
+  t.text     "sales"
+  t.text     "information"
+  t.datetime "created_at"
+  t.datetime "updated_at"
+  t.string   "att"
+end
