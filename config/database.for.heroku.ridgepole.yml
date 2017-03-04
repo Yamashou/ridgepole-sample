@@ -1,2 +1,2 @@
 production:
-  url: <%= ENV['HEROKU_POSTGRESQL_BLUE_URL'] %>
+  url: <%= ENV['DATABASE_URL'] %>
