@@ -1,9 +1,9 @@
 <div class='row'>
   <div class="col-lg-8 col-lg-7 col-lg-6">
     <h1>一覧</h1>
-    <ul>
+    <ul class="zone1">
       <% @resutaurants.each do |resutaurant| %>
-      <li><%= link_to resutaurant.name, resutaurant %></li>
+      <li class="zone-item"><%= link_to resutaurant.name, resutaurant %></li>
       <% end %>
     </ul>
   </div>

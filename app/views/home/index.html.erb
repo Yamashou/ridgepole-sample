@@ -1,0 +1,62 @@
+<div class="top-wrapper">
+  <div class="container">
+    <h1>会津若松市内<br />現在アイテルお店の一覧表示</h1>
+    <p>アイテルは現在のお店の営業情報提供サイトです<br>『定休日じゃないのに！』『定休日なのにやってたの？』を無くしたい田舎ならではの悩み解決を目指します。</p>
+    <div class="btn-wrapper">
+      <a><%= link_to "一覧", restaurants_path, id: "opening_all",class: "btn signup"%></a>
+    </div>
+  </div>
+</div>
+<div class="lesson-wrapper">
+
+
+  <div class="container">
+    <div class="heading">
+      <h2>『今日もうやってないの？』『臨時休業！？！？』なんてことありませんか？</h2>
+    </div>
+    <div class="lessons">
+      <div class="lesson">
+        <div class="lesson-icon">
+          <img src="https://prog-8.com/images/html/advanced/html.png">
+          <p>臨時休業</p>
+        </div>
+        <p class="text-contents">店の方の都合により臨時でのおやすみ、感知装置設置店舗なら一発でわかります</p>
+      </div>
+      <div class="lesson">
+        <div class="lesson-icon">
+          <img src="https://prog-8.com/images/html/advanced/jQuery.png">
+          <p>やってる！</p>
+        </div>
+        <p class="text-contents">いつもなら、定休日のはずがなぜかやっている、そんな時も装置設置店舗ならすぐに一覧へ加わります</p>
+      </div>
+      <div class="lesson">
+        <div class="lesson-icon">
+          <img src="https://prog-8.com/images/html/advanced/ruby.png">
+          <p>○○がなくなった！</p>
+        </div>
+        <p class="text-contents">よく人気の店などであることですよね、こんな時も装置設置店舗なら人一覧から外します。</p>
+
+      </div>
+
+      <div class="lesson">
+        <div class="lesson-icon">
+          <img src="https://prog-8.com/images/html/advanced/php.png">
+          <p>その他パターン</p>
+        </div>
+        <p class="text-contents">その他のパターンにも対処できるように随時機能更新していきます。</p>
+      </div>
+
+
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+<div class="message-wrapper">
+  <div class="container">
+    <div class="heading">
+      <h2>さぁ、'今' やっているお店を会津若松市内で探しませんか？</h2>
+      <h3>きっと、あなたにあったお店が見つかりますよ</h3>
+    </div>
+    <span><%= link_to "さっそく一覧を見てみる", restaurants_path, id: "opening_all",class: "btn message"%></span>
+  </div>
+</div>

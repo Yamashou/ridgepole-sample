@@ -1,9 +1,11 @@
 <header>
-  <div class="navbar navbar-default navbar-fixed-top">
     <div class="container">
-    <%= link_to "AIZU app", restaurants_path, id: "logo" %>
-    <nav class="navbar navbar-fixed-bottom" role="navigation">
-    </nav>
-  </div>
-  </div>
-</header>
+      <div class="header-left">
+        <%= link_to "AIZU app", root_path, id: "logo" %>
+      </div>
+      <div class="header-right">
+        <a><%= link_to "ホーム", root_path, id: "opening_all"%></a>
+        <a><%= link_to "一覧", restaurants_path, id: "opening_all"%></a>
+      </div>
+    </div>
+  </header>
